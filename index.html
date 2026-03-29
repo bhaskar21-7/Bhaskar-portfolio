@@ -32,14 +32,14 @@
   --photo-blend:linear-gradient(to bottom, transparent 50%, var(--bg) 100%);
 }
 [data-theme="aurora"] {
-  --bg:#06040f; --bg2:#0a071a; --bg3:#0f0b22;
-  --accent:#7c3aed; --accent2:#06b6d4;
-  --text:#f0ecff; --sub:#c4bde8;
-  --border:rgba(124,58,237,0.15); --card:rgba(124,58,237,0.06);
-  --glow1:rgba(124,58,237,0.25); --glow2:rgba(6,182,212,0.15);
-  --nav-bg:rgba(6,4,15,0.9); --badge-bg:rgba(124,58,237,0.12); --badge-c:#a78bfa;
-  --text-muted:#b0a8d8;
-  --photo-filter:saturate(0.7) brightness(0.9) hue-rotate(200deg);
+  --bg:#07090f; --bg2:#0a0f1a; --bg3:#0d1525;
+  --accent:#00e5ff; --accent2:#4fc3f7;
+  --text:#e8f4f8; --sub:#80deea;
+  --border:rgba(0,229,255,0.12); --card:rgba(0,229,255,0.05);
+  --glow1:rgba(0,229,255,0.18); --glow2:rgba(15,32,39,0.9);
+  --nav-bg:rgba(7,9,15,0.9); --badge-bg:rgba(0,229,255,0.08); --badge-c:#00e5ff;
+  --text-muted:#b0ccd8;
+  --photo-filter:saturate(0.8) brightness(0.92) hue-rotate(160deg);
   --photo-blend:linear-gradient(to bottom, transparent 50%, var(--bg) 100%);
 }
 
@@ -86,7 +86,7 @@ body::after {
 }
 .t-btn:hover,.t-btn.active { color:var(--accent); border-color:var(--accent); background:var(--badge-bg); }
 .dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
-.d-dark { background:#f4622a; } .d-light { background:#1a6b4a; } .d-aurora { background:#7c3aed; }
+.d-dark { background:#f4622a; } .d-light { background:#1a6b4a; } .d-aurora { background:#00e5ff; }
 
 /* ════════ BACK TO TOP ════════ */
 #btt {
@@ -403,7 +403,7 @@ footer { border-top:1px solid var(--border); padding:2rem 2.5rem; display:flex; 
 <div class="theme-sw">
   <button class="t-btn active" data-t="dark" onclick="setTheme('dark',this)"><span class="dot d-dark"></span>DARK</button>
   <button class="t-btn" data-t="light" onclick="setTheme('light',this)"><span class="dot d-light"></span>LIGHT</button>
-  <button class="t-btn" data-t="aurora" onclick="setTheme('aurora',this)"><span class="dot d-aurora"></span>AURORA</button>
+  <button class="t-btn" data-t="aurora" onclick="setTheme('aurora',this)"><span class="dot d-aurora"></span>OCEAN</button>
 </div>
 
 <!-- NAV -->
@@ -629,7 +629,7 @@ footer { border-top:1px solid var(--border); padding:2rem 2.5rem; display:flex; 
       <div class="slabel" style="justify-content:center;">06 — CONTACT</div>
       <h2 class="stitle" style="text-align:center;">Let's <em>connect.</em></h2>
       <p class="ct-desc">Open to collaborations, internships, data projects, and conversations about statistics and tech.</p>
-      <a href="mailto:bjha3779@gmail.com" class="ct-email">bjha3779@gmail.com</a>
+      <a href="/cdn-cgi/l/email-protection#97f5fdfff6a4a0a0aed7f0faf6fefbb9f4f8fa" class="ct-email"><span class="__cf_email__" data-cfemail="a6c4cccec79591919fe6c1cbc7cfca88c5c9cb">[email&#160;protected]</span></a>
       <div class="social-chips">
         <a href="https://github.com/bhaskar21-7" target="_blank" class="s-chip">⌥ GITHUB</a>
         <a href="https://www.linkedin.com/in/bhaskar-jha-50838431a" target="_blank" class="s-chip">🔗 LINKEDIN</a>
@@ -644,7 +644,7 @@ footer { border-top:1px solid var(--border); padding:2rem 2.5rem; display:flex; 
   <span>STATISTICS · DATA · PYTHON</span>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 /* ════════ LOADER ════════ */
 window.addEventListener('load', () => {
   setTimeout(() => {
@@ -780,14 +780,4 @@ const countObs = new IntersectionObserver(entries => {
         const step = Math.ceil((target - start) / 40);
         const timer = setInterval(() => {
           current = Math.min(current + step, target);
-          el.textContent = current + suffix;
-          if (current >= target) clearInterval(timer);
-        }, duration / 40);
-      });
-    }
-  });
-}, { threshold: .3 });
-document.querySelectorAll('.stat-g').forEach(g => countObs.observe(g));
-</script>
-</body>
-</html>
+          el.textContent = c
