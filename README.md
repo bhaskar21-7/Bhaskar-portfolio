@@ -1,6 +1,6 @@
 # Bhaskar Portfolio
 
-
+This is my personal portfolio website built using HTML, CSS, and JavaScript.
 
 ## Live Site
 https://bhaskar21-7.github.io/Bhaskar-portfolio/
