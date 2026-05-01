@@ -1,19 +1,64 @@
 # Bhaskar Portfolio
 
-This is my personal portfolio website built using HTML, CSS, and JavaScript.
+🚀 Statistics Undergraduate | Data Science & Machine Learning Enthusiast
 
-## Live Site
-https://bhaskar21-7.github.io/Bhaskar-portfolio/
+---
 
-## Projects
-- Memory Retention Predictor (Ebbinghaus Curve)
-- Open Source Contributions
+## 🔗 Live Demo
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
-- Python (for projects)
+👉 https://bhaskar21-7.github.io/Bhaskar-portfolio/
 
-## About
-I am a Statistics undergraduate exploring data science, machine learning, and real-world problem solving.
+---
+
+## 🧠 About Me
+
+I am a statistics undergraduate focused on applying probability, data analysis, and machine learning to solve real-world problems.
+
+My current focus:
+
+* Probability modeling using R
+* Machine learning fundamentals
+* Building practical, deployable projects
+
+---
+
+## 📌 Featured Projects
+
+### 1. Memory Retention Predictor (Ebbinghaus Curve)
+
+* Modeled human memory decay using probabilistic functions
+* Implemented retention curve simulation
+* Tech: Python, JavaScript
+
+### 2. Open Source Contributions
+
+* Contributed to beginner-friendly repositories
+* Focus on improving code structure and documentation
+
+---
+
+## ⚙️ Tech Stack
+
+* **Languages:** Python, JavaScript, R
+* **Web:** HTML, CSS
+* **Concepts:** Probability, Statistics, Machine Learning (Basics)
+
+---
+
+## 📈 What I’m Working On
+
+* Improving problem-solving for IIT JAM
+* Building ML-based real-world projects
+* Strengthening probability using R
+
+---
+
+## 📫 Contact
+
+* GitHub: https://github.com/bhaskar21-7
+
+---
+
+## ⚠️ Note
+
+This portfolio is continuously evolving as I improve my skills and build more advanced projects.
